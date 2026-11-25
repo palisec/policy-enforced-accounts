@@ -9,8 +9,8 @@ jobs:
   library:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
@@ -23,7 +23,7 @@ jobs:
       run:
         working-directory: contracts
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: foundry-rs/foundry-toolchain@v1
       - run: forge install foundry-rs/forge-std --no-git
       - run: forge test
