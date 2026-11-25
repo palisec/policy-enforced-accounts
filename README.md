@@ -74,7 +74,9 @@ Registry v2, `0xCa3bAE26d29a3A2cED7B87Fa996ca4C44367448d`, stays as it is and re
 - `REGISTRY_ADDRESSES` points to v2. Pass `REGISTRY_V1_ADDRESSES[4663]` as `registry` to read or audit the first draft.
 - `readAccount` returns `standard`, `minDelay`, `signerType` and `pendingSigners`.
 
-The spec and guide are at https://palisec.tech/docs/standard. License: CC0-1.0.
+The spec and guide are at https://palisec.tech/docs/standard.
+
+License: MIT (see LICENSE). The Solidity contracts in contracts/ and the specification in erc/ are dedicated to the public domain under CC0-1.0, as marked in each file.
 
 ## History
 
